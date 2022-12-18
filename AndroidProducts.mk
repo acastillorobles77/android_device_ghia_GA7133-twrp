@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_GA7133.mk
+    $(LOCAL_DIR)/twrp_GA7133.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_GA7133-user \
-    omni_GA7133-userdebug \
-    omni_GA7133-eng
+    twrp_GA7133-user \
+    twrp_GA7133-userdebug \
+    twrp_GA7133-eng

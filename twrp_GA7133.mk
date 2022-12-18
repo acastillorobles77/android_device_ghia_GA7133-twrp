@@ -9,13 +9,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from GA7133 device
 $(call inherit-product, device/ghia/GA7133/device.mk)
 
 PRODUCT_DEVICE := GA7133
-PRODUCT_NAME := omni_GA7133
+PRODUCT_NAME := twrp_GA7133
 PRODUCT_BRAND := GHIA
 PRODUCT_MODEL := GA7133
 PRODUCT_MANUFACTURER := ghia
