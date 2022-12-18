@@ -21,7 +21,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.ceres
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+PRODUCT_STATIC_BOOT_CONTROL_HAL += \
     bootctrl.ceres \
     libgptutils \
     libz \
