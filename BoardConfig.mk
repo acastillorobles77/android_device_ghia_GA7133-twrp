@@ -92,7 +92,7 @@ TARGET_SCREEN_HEIGHT := 1024
 TARGET_SCREEN_WIDTH := 600
 
 # TWRP Configuration
-TW_CUSTOM_BATTERY_PATH := /sys/class/power_supply/axp2202-battery/capacity
+TW_CUSTOM_BATTERY_PATH := /sys/devices/platform/soc@2900000/7081400.s_twi/i2c-6/6-0034/axp2202-bat-power-supply.0/power_supply/axp2202-battery/capacity
 TW_THEME := landscape_mdpi
 TW_INCLUDE_CRYPTO := true
 TW_EXTRA_LANGUAGES := true
