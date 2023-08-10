@@ -100,3 +100,4 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
+TW_NO_SCREEN_TIMEOUT := true # temporary disable screen timeout until I find a fix for screen brightness
