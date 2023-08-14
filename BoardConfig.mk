@@ -88,7 +88,7 @@ PLATFORM_VERSION := 16.1.0
 
 # TWRP Configuration
 TW_CUSTOM_BATTERY_PATH := /sys/devices/platform/soc@2900000/7081400.s_twi/i2c-6/6-0034/axp2202-bat-power-supply.0/power_supply/axp2202-battery/capacity
-TW_THEME := landscape_mdpi
+TW_THEME := landscape_hdpi
 TW_INCLUDE_CRYPTO := true
 TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
